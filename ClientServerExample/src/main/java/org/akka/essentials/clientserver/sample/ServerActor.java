@@ -11,7 +11,7 @@ public class ServerActor extends AbstractActor {
 
 
     @Override
-    public void preStart() throws Exception, Exception {
+    public void preStart() {
         instanceCounter ++;
         log.info("Starting ServerActor instance #" + instanceCounter
                 + ", hashcode #" + this.hashCode());
